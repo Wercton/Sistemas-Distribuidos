@@ -1,0 +1,64 @@
+http://leiturasapoio.blogspot.com/
+livre: 6
+enquanto: 3
+mais: 40
+vivo: 0
+autor: 9
+livro: 5
+
+https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Sobre_a_Wikip%C3%A9dia
+livre: 10
+enquanto: 1
+mais: 10
+vivo: 0
+autor: 1
+livro: 3
+
+https://universoracionalista.org/
+livre: 0
+enquanto: 0
+mais: 9
+vivo: 0
+autor: 3
+livro: 0
+
+https://pt.wikipedia.org/wiki/Carl_Sagan
+livre: 10
+enquanto: 4
+mais: 32
+vivo: 0
+autor: 16
+livro: 125
+
+https://pt.wikipedia.org/wiki/Charles_Darwin
+livre: 12
+enquanto: 15
+mais: 59
+vivo: 1
+autor: 19
+livro: 101
+
+https://pt.wikipedia.org/wiki/Reino_de_Portugal
+livre: 3
+enquanto: 5
+mais: 8
+vivo: 0
+autor: 5
+livro: 4
+
+https://seriemaniacos.tv/series/the-leftovers/
+livre: 0
+enquanto: 1
+mais: 250
+vivo: 28
+autor: 7
+livro: 19
+
+https://pt.wikipedia.org/wiki/Albert_Einstein
+livre: 14
+enquanto: 7
+mais: 60
+vivo: 0
+autor: 19
+livro: 100
+
