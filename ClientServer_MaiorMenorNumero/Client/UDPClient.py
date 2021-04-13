@@ -1,18 +1,23 @@
 import socket as sk
 
-s = sk.socket(sk.AF_INET, sk.SOCK_STREAM)
 
-try:
-    s.connect((sk.gethostname(), 1241))
-except sk.error as e:
-    print(str(e))
-    raise SystemExit
+class Client:
+    
+    def __init__(self, port):
+        self.c = sk.socket(sk.AF_INET, sk.SOCK_STREAM)
+        self.c.connect((sk.gethostname(), port))
+        self.enviar_numeros()
+    
+    def enviar_numeros(self):
+        numeros = input("Digite três números: ")
+        self.c.sendall(bytes(numeros, "utf-8"))
+        msg = self.c.recv(1024)
+        msg = msg.decode("utf-8")
+        print(msg)
+
+        self.c.close()
 
 
-numeros = input("Digite três números: ")
-s.sendall(bytes(numeros, "utf-8"))
-msg = s.recv(1024)
-msg = msg.decode("utf-8")
-print(msg)
-
-s.close()
+if __name__ == '__main__':
+    port = 1241
+    Client(port)
